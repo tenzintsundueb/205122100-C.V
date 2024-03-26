@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Google font link using Libre Baskerville(serif family) for heading and Lato for paragraph -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:wght@700&display=swap" 
+    rel="stylesheet">
+
+    <!-- Icon from font-awesome 4.7 libraries  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        
+        <div class="leftSide">
+            <div class="profileSection">
+                <div class="imageBox">
+                    <img src="profile.JPG" height="200" class="profile-image">
+                </div>
+                <h2>TENZIN TSUNDUE BHUTIA</h2>
+            </div>
+
+            <div class="details contactInfo">
+                <h2 class="title">CONTACT INFORMATION</h2>
+                <ul type="none">
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">9234567801</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">tenzin@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Dekyling, Dehradun, UK</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                        <a href="https://www.linkedin.com/in/tenzin-tsundue/">tenzin-tsundue</a>
+                        <span><i class="fa fa-external-link-square" aria-hidden="true"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="details Education">
+                <h2 class="title">EDUCATION</h2>
+                <ul type="none">
+                    <li>
+                        <h5>2022 - 2025</h5>
+                        <h4>Master of Computer Application</h4>
+                        <h4>NIT Tiruchirappali</h4>
+                    </li>
+                    <li>
+                        <h5>2018 - 2021</h5>
+                        <h4>Bachelor of Computer Application</h4>
+                        <h4>DIT University</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="details skills">
+                <h2 class="title">Skills</h2>
+                <ul>
+                    <li>Programming Language(C++, python)</li>
+                    <li>Oracle</li>
+                    <li>Gephi(SNA Tools)</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+            
+        </div>
+
+
+        <div class="rightSide">
+            <div class="about">
+                <h2 class="title2">PROFILE</h2>
+                <p>Highly-driven computer science student with growing knowledge in Oracle, and C++, 
+                    With more than 8 years of strong academic background in
+                    core of Computer Science and programming. I strive to bring high 
+                    quality busniess intelligence solutions to businesses seeking
+                    higher efficiency.</p>
+            </div>
+
+            <div class="about">
+                <h2 class="title2">PROJECTS</h2>
+                <div class="box">
+                    <div class="time-line">
+                        <span class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></i></span>
+                        <span class="text">Nov 2023</span>
+                    </div>
+                    <div class="text project1">
+                        <h3>Analyzing Relationships in Game of Thrones With NetworkX and Gephi</h3>
+                        <p>This project delves into the features of the renowned television series, Game of Thrones. 
+                            The captivating plotlines of the show present an ideal opportunity for utilizing network analysis and graph visualisation tools, 
+                            two powerful and dynamic tools that will be utilized throughout our analysis. 
+                            <span><button class="readMoreBtn readMoreBtn1"><i id="dropDown1" class="fa fa-chevron-circle-down" aria-hidden="true"></i></button></span>
+                        </p>
+                        
+                        <div class="readMore1">
+                            <h5 class="project-section">APPROACH</h5>
+                            <p>Our approach includes visual analysis of networks through graphs to measure relationship strength, 
+                                various houses(communities) in the Book and information flow between characters, 
+                                to deepen our understanding of the properties of social network analysis and graph theory.</p>
+                            <h5 class="project-section">ANALYSIS</h5>
+                            <ul class="centrality">
+                                <li>Character with most interaction(Degree Centrality)</li>
+                                <li>Most Influential character(Betweenness Centrality)</li>
+                                <li>Spread of Information between charcter( Closeness Centrality )</li>
+                                <li>Identify the different Houses (Community Detection)</li>
+                            </ul>                
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="time-line">
+                        <span class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></i></span>
+                        <span class="text">April 2021</span>
+                    </div>
+                    <div class="text">
+                        <h3>Dino the Dragon</h3>
+                        <p>Project of a team of four, Dino the Dragon is a single-player offline game developed using HTML and CSS. 
+                            It is like the “Dinosaur Game” where a player has to avoid contact with inhabited creatures moving towards 
+                            them with upgraded functionality like gun attacks, sound effects, etc. It’s a 2D Top-Down Role(RPG) game. 
+                            WebGL and the Game engine Unity(2017) are used to render the game on the web and bring life to it.
+                            <span><button class="readMoreBtn readMoreBtn2"><i id="dropDown2" class="fa fa-chevron-circle-down" aria-hidden="true"></i></button></span>
+                        </p>
+                        <div class="readMore2">
+                            <h5 class="project-section">OBJECTIVE</h5>
+                            <ul class="objective">
+                                <li>create a RPG game that will have all the functionality of traditional RPG games.</li>
+                                <li>To implement gun attack as the ability instead of usual sword attack.</li>
+                                <li>To implement multiple weapons with different bullets and power.</li>
+                                <li>To implement various kinds of enemies.</li>
+                            </ul>
+                            <h5 class="project-section">TECHNOLOGIES</h5>
+                            <ul class="tools">
+                                <li>Game Engine: Unity 2017</li>
+                                <li>Image Editor & Animation: Adobe Photoshop CC 2017</li>
+                                <li>Code Editor: Visual Studio 2017</li>
+                                <li>Audio Editor: Audacity 2.1.3</li>
+                            </ul>                
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="time-line">
+                        <span class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></i></span>
+                        <span class="text">Mar 2017</span>
+                    </div>
+                    <div class="text">
+                        <h3>Railway Reservation System</h3>
+                        <p>This is a basic operational system designed during the Secondary high school project where the passenger can search for train schedules, 
+                            make reservations and cancel the booking. The system must first be created from the admin mode by adding, deleting and modifying train details. 
+                            It uses the concept of file handling to store train details and booking data. 
+                            This was developed using C++ and coded in Turbo C++.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about certification">
+                <h2 class="title2 ">CERTIFICATION</h2>
+                <div class="box">
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1c6MD0x8QdnxFYpwK0NBFJXhsaB3qUQou/view?usp=share_link">
+                            Oracle Database 12c R2: Introduction to SQL Ed 2 PRV 
+                            <span><i class="fa fa-external-link-square" aria-hidden="true"></i></span>
+                            </a>
+                        </li>
+                        <li> <a href="https://drive.google.com/file/d/1d1JdkxWjWlSijy3DS1B8ekRDFW6QQs3l/view?usp=share_link">
+                            Oracle Database 12c R2: PL/SQL Fundamentals Ed 2 PRV
+                            <span><i class="fa fa-external-link-square" aria-hidden="true"></i></span>
+                            </a>
+                        </li>
+                        <li> <a href="https://drive.google.com/file/d/1GL6hr8DRea2NYSOb0lKENoE1PigIA2Zx/view?usp=share_link">
+                            Oracle Database 12c R2: Administration Workshop Ed 3 PRV
+                            <span><i class="fa fa-external-link-square" aria-hidden="true"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

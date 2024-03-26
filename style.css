@@ -1,0 +1,244 @@
+body{
+    background-color: #FBF9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    background-color: #FBF9FA;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    margin : 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+
+}
+
+.container .leftSide {
+    background-color: #211C6A;
+    position: relative;
+    padding: 30px; 
+}
+
+.profileSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(249, 247, 247, 0.7);
+}
+
+.profileSection .imageBox {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileSection .imageBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:contain
+}
+
+.profileSection h2{
+    color: #fff;
+    margin-top: 20px;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.details {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.details h2 {
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}  
+
+.details ul{
+    position: relative;
+    margin: 0px;
+    padding: 0px 5px;
+}
+
+.details ul li {
+    position: relative;
+    margin: 10px 0;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+a{
+    color: rgb(234, 234, 229);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.box a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.box a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.Education ul li{
+    margin-bottom: 25px;
+}
+
+.Education ul li h5{
+    color: #03a9f4;
+    margin: 0px;
+
+}
+
+.Education ul li h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin: 0px;
+}
+
+.Education ul li h4:nth-child(2){
+    color: white
+}
+
+.skills ul{
+    margin-left: 5px;
+}
+
+.skills ul li {
+    color: #fff;
+}
+
+.skills ul li .url:hover {
+
+    color: green;
+}
+
+.container .rightSide {
+    /* background-color: #FBF9FA; */
+    position: relative;
+    padding: 40px;
+
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #211C6A;
+    /* margin-bottom: 10px; */
+}
+
+p{
+    color: #333;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .time-line{
+    margin-top: 10px;
+    min-width: 150px;
+    color: #848c90;
+}
+
+.about .box .text h3{
+    margin-top: 0px;
+    color:#3468C0;
+}
+
+.about h5{
+    margin-bottom: 0px;
+}
+
+.about p{
+    margin-top: 0px 0px;
+}
+
+.about ul{
+    margin-top: 5px;
+    padding-left: 13px;
+}
+
+.text button {
+    background-color:#fff;
+    border: none;
+    cursor: pointer;
+}
+
+.readMore {
+    height: auto;
+    border: 1px solid ;
+}
+
+.readMore1 {
+    display: none;
+}
+
+.readMore2 {
+    display: none;
+}
+
+
+
+
+.certification .box{
+    margin: 0px;
+}
+
+.certification .title2{
+    margin: 0px;
+}
+
+.certification li{
+    margin: 5px;
+}
+
+
+
